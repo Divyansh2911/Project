@@ -1,0 +1,113 @@
+body{
+    background-color: white;
+}
+#home::before {
+    height: 650px;
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#navbar ul{
+    /* display: inline-block; */
+    flex-direction: row;
+    font-size: 1.3rem;
+    /* text-align: center; */
+    /* justify-content: center; */
+    
+}
+#navbar ul li a{
+    /* display: inline-block; */
+    flex-direction: row;
+    font-size: 1rem;
+    margin: 0px 2px;
+    padding: 7px 3px ;
+}
+.primary {
+    font-size: 1.4rem;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.primaryh {
+    font-size: 2.1rem;
+    padding-top: 0px;
+}
+p{
+    font-size: 1.2rem;
+}
+.service{
+    flex-direction: column;
+}
+.edited{
+    font-size: 1.2rem;
+    position: relative;
+    top: -29px;
+    /* margin-top: -83px; */
+}
+.box1 {
+    border: 2px solid black;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 30px;
+    word-wrap: break-word;
+}
+.deliverylogo {
+    height: 100px;
+    width: 100px;
+}
+.dineinlogo {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+.primarycenter {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.1rem
+}
+.contactus {
+    margin-top: 10px;
+    font-size: 2.1rem;
+}
+.secondaryh {
+    padding: 5px;
+    font-size: 1.4rem;
+}
+.client-section::before{
+    height: 400px;
+
+}
+.client-section{
+    height: 200px;
+}
+.client-section{
+    height: 300px;
+}
+#contact::before {
+    top: -5px;
+    opacity: 1;
+    height: 100%;
+}
+.client-section-logo {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+.contactus {
+    margin-top: 55px;
+}
+.last{
+    top: 20px;
+}
+.form label {
+    padding: 20px;
+    font-size: 1.2rem;
+}

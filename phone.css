@@ -1,0 +1,13 @@
+body{
+    background-color: white;
+}
+.client-section::before{
+    content: "";
+    background: url(../foodWebsite/back4.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 640px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
